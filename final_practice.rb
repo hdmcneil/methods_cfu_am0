@@ -90,7 +90,6 @@ puts square(10)
 def check_stock(quantity, item)
     
     stock_data = { "Coffee" => 4, "Tortillas" < 4, "Cheese" == 0, "Salsa" < 4}
-end
   
     # Check if the item exists in the stock data
         stock_data.key?(item)
@@ -106,11 +105,11 @@ end
     if stock_data("Salsa")
         puts "Salsa - running LOW"
     end
-
+end
 
 # Call the method with the given interaction pattern
   check_stock(4, "Coffee")
   check_stock(3, "Tortillas")
   check_stock(0, "Cheese")
   check_stock(1, "Salsa")
-end
+
